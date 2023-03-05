@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+  max-width: 100%;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+
+header {
+  max-width: 80%;
+
+  margin: auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+}
+nav ul li {
+  list-style: none;
+}
+ul li a {
+  font-weight: 900;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+ul {
+  display: flex;
+  gap: 3em;
+}
+main {
+  max-width: 90%;
+  margin-left: 9.4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-image: url("./images/stethoscope.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: left 10em top 1em;
+}
+main h1 {
+  font-weight: bolder;
+  font-size: 2em;
+}
+main button {
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 40px;
+  background-color: #20bc7e;
+  font-size: 25px;
+  font-weight: 700;
+}
+.main-desc {
+  max-width: 60%;
+  position: relative;
+}
+.main-desc h1 {
+  font-size: 3em;
+  font-weight: bolder;
+  margin-bottom: 0.5em;
+}
+.main-desc p {
+  color: #7c7c7c;
+  font-size: 18px;
+  margin: 20px 0;
+}
+.logo-img {
+  position: relative;
+  overflow: hidden;
+}
+.green-circle {
+  position: absolute;
+  z-index: -1;
+  width: 420px;
+  top: 7.4em;
+
+  left: 4em;
+}
+
+.doctor-img {
+  position: relative;
+  right: -1em;
+  top: -2em;
+  width: 470px;
+  height: 650px;
+}
+.top-angle {
+  position: absolute;
+  top: -1em;
+  left: -0.3em;
+  z-index: 1;
+}
+.bottom_angle {
+  position: absolute;
+  bottom: 1em;
+  right: 10em;
+}
+img[alt="mouse"] {
+  position: absolute;
+
+  right: 5em;
+  bottom: -1em;
+}
+
+/* about us page styling */
+
+.parent-div {
+  width: 100%;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child-div {
+  max-width: 50%;
+  padding: 1em 2em;
+  text-align: center;
+}
+.cards-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.child-div h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #20bc7e;
+}
+.child-div p {
+  margin: 2em;
+}
+.card-1,
+.card-2,
+.card-3 {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-1 h2,
+.card-2 h2,
+.card-3 h2 {
+  color: #20bc7e;
+}
+
+/* contact us div */
+.contact-us {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 350px;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form h1 {
+  text-align: center;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form div label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+form div input {
+  border: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+form div textarea {
+  resize: none;
+  height: 100px;
+  border: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+form button {
+  border: transparent;
+  border-radius: 10px;
+  background: #20bc7e;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
